@@ -1,0 +1,21 @@
+current directory: /home/vagrant/workspace/dev-mofmof/vendor/bundle/ruby/2.6.0/gems/bindex-0.7.0/ext/skiptrace
+/home/vagrant/.rbenv/versions/2.6.3/bin/ruby -I /home/vagrant/.rbenv/versions/2.6.3/lib/ruby/2.6.0 -r ./siteconf20210129-3671-1tuasg4.rb extconf.rb
+creating Makefile
+
+current directory: /home/vagrant/workspace/dev-mofmof/vendor/bundle/ruby/2.6.0/gems/bindex-0.7.0/ext/skiptrace
+make "DESTDIR=" clean
+make: Warning: File 'Makefile' has modification time 0.55 s in the future
+make: warning:  Clock skew detected.  Your build may be incomplete.
+
+current directory: /home/vagrant/workspace/dev-mofmof/vendor/bundle/ruby/2.6.0/gems/bindex-0.7.0/ext/skiptrace
+make "DESTDIR="
+make: Warning: File 'Makefile' has modification time 0.53 s in the future
+compiling cruby.c
+linking shared-object skiptrace/cruby.so
+make: warning:  Clock skew detected.  Your build may be incomplete.
+
+current directory: /home/vagrant/workspace/dev-mofmof/vendor/bundle/ruby/2.6.0/gems/bindex-0.7.0/ext/skiptrace
+make "DESTDIR=" install
+make: Warning: File 'Makefile' has modification time 0.17 s in the future
+/usr/bin/install -c -m 0755 cruby.so ./.gem.20210129-3671-lic0b9/skiptrace
+make: warning:  Clock skew detected.  Your build may be incomplete.
